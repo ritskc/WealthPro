@@ -91,10 +91,8 @@
     background-color: transparent;
   }
   .navbar-default .navbar-collapse {
-    border-top: 1px solid transparent;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#3aa6fe), to(#49deff));
+  background-image: linear-gradient(90deg, #3aa6fe 0%, #49deff 100%);
   }
   .navbar-default .navbar-fixed-top {
     top: 0;
